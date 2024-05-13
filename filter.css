@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Preahvihear&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+/* html{
+
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+} */
+
+/* *{
+    font-family: 'Poppins' ,sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+   text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+    transition:width none;
+} */
+
+.book{
+    /* background-color:  rgb(240, 229, 240); */
+    background: linear-gradient(to top right,white,rgba(245, 227, 245,5));
+    top:0;
+    position: relative;
+}
+
+.book .head{
+    /* background: #faf8f8; */
+   
+    padding: 1.5rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: .4rem solid #ffffff; */
+     /* box-shadow: inset #ffffff 1px 2px 15px; */
+     position: relative;
+    
+}
+
+.book .heading{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 4rem;
+    color: #444;
+    
+
+}
+
+.book .head .right{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book .head .filter{
+    font-size: 1.8rem ;
+    font-weight: bold;
+    color: black;
+    background: #ffffff;
+    border-radius: .5rem;
+    width: 90px;
+    
+    text-align: center;
+    padding: .5rem 0rem;
+    text-transform: capitalize;
+    border: .1rem solid rgb(184, 181, 181);
+    transition: none 0.5s ease-in-out 0.5s; 
+}
+
+.book .head .filter:hover{
+    transform: scale(1.1);
+}
+
+.book .head .right .together{
+   display: flex;
+    padding-right: 7rem;
+    font-size: 1.5rem ;
+    font-weight: bolder;
+    color: black;
+    width: 90%;
+    max-height: 50%;
+   
+}
+
+.book .head .right .together .educational{
+    margin-right: 0;
+   
+    font-size: 1.8rem ;
+    font-weight: bold;
+    color: black;
+    background: #ffffff;
+    border-radius: 2rem 0rem 0rem 2rem;
+    width: 150px;
+    text-align: center;
+    padding: .5rem 1rem;
+    padding-right: 1.2rem;
+    text-transform: capitalize;
+    /* border:.1rem; */
+    border-left: .2rem solid black;
+    
+    background: rgb(107, 154, 193);
+    
+}
+
+.book .head .right .together .educational:hover{
+    transform: scale(1.1);
+}
+
+.educational .active{
+    background: #ffffff;
+}
+.book .head .right .together .others{
+    font-size: 1.8rem ;
+    font-weight: bold;
+    color: black;
+    background: #ffffff;
+    border-radius:0rem 2rem 2rem 0rem;
+    width: 50%;
+    text-align: center;
+    padding: .5rem .5rem;
+    padding-right: 1rem;
+    text-transform: capitalize;
+    border-right: .2rem solid black;
+    background:  rgb(135, 159, 179);
+    cursor: pointer;
+    
+}
+.book .head .right .together .others:hover{
+    transform: scale(1.1);
+}
+
+.others .active{
+    background: black;
+}
+
+
+
+.book .head .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 6%;
+    left:0%;
+   height: 710px;
+   width: 260px;
+  margin: .5rem;
+  padding: .1rem;
+  margin-left: 1rem;
+  display: none;
+  /* left:-150%;
+    z-index: 1000;       here change display pehle none the */ 
+    border: .5rem solid #ffffff;
+    background: linear-gradient(to top right,rgb(255, 255, 255),rgba(245, 227, 245,10));
+    box-shadow: rgb(181, 180, 181) 0px 2px 10px;
+}
+
+
+.sub-menu-wrap h1{
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sub-menu-wrap span{
+    text-transform: capitalize;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    padding-left: .5rem;
+    color: #3d2f2f;
+    
+    font-weight: bold;
+}
+
+.sub-menu-wrap #prange{
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left;
+    
+}
+
+.sub-menu-wrap .star{
+    margin-top: .5rem;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.sub-menu-wrap input{
+    margin: .4rem;
+}
+
+.sub-menu-wrap .check-box{
+     
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .8rem;
+    
+}
+
+.sub-menu-wrap .info{
+margin-top: 1.5rem;
+}
+
+
+
+.sub-menu-wrap .info .detail{
+    width: 97%;
+    margin: .8rem 0;
+    font-size: 1.3rem;
+    border: .2rem solid rgb(191, 189, 189);
+    border-radius: .5rem;
+    color: solid black;
+    padding: 1rem;
+    text-transform: none;
+    box-shadow: #ecebeb 1px 2px 10px;
+}
+
+.sub-menu-wrap .button{
+    margin: 2rem .1rem;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+
+}
+.sub-menu-wrap .button .clear{
+     
+    width: 90px;
+    height: 30px;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    margin-right: .5rem;
+    background: rgb(227, 171, 171);
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sub-menu-wrap .button .search{
+    width: 90px;
+    height: 30px;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    margin-left: .5rem;
+    background: rgb(160, 235, 160);
+    color: green;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+

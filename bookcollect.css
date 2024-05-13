@@ -1,0 +1,238 @@
+.contain{
+    background-color: linear-gradient(to bottom left,rgb(255, 255, 255),rgb(255, 255, 255));
+}
+.book-collection{
+   margin-top:5rem;
+   margin-left: 15rem;
+    width: 100%;
+    height: auto;
+  
+    overflow-x:wrap;
+   
+
+}
+
+.book-collection .photos{
+
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 5rem;
+    column-gap: 0rem;
+    
+}
+
+.book-collection .photos .book {
+    /* background: rgba(245, 227, 245,10); */
+   
+    border: .1rem solid rgb(35, 34, 34); 
+    height: 330px;
+    width: 250px;
+    border-radius: 2rem 2rem 2rem 2rem;
+    
+    /* justify-content: center; Horizontally center content inside grid items */
+   
+}
+
+.book-collection .photos .book .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: baseline;
+    
+}
+
+.book-collection .photos .book img{
+    padding-top: .5rem;
+    width: 200px;
+    height: 210px;
+    
+   
+}
+
+.book-collection .photos .book .image{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.book-collection .content{
+    margin-top: 1rem;
+display: flex;
+justify-content: space-between;
+padding-left: .8rem;
+width: 90%;
+height: 98%;
+}
+
+.book-collection .content .book-name{
+    font-size: 1.8rem;
+    font-weight:400;
+    width: 70%;
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.book-collection .content .price{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
+.book-collection .photos .book .book-type{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    margin-top: 1rem;
+    padding: .5rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+
+   margin-bottom: 2rem;
+
+}
+
+.book-collection .photos .book .book-type .rating{
+
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.book-collection .photos .book .book-type .btn{
+    border: .1rem solid black;
+    background-color: rgba(116, 164, 226,0.85);
+    color: black;
+    border-radius: .5rem;
+    width:auto;
+    padding: .4rem;
+    /* padding-top: .2rem;
+    padding-bottom: .2rem; */
+    margin-left: 1rem;
+    
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+.popup2-image{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to top right,rgb(255, 255, 255),rgba(245, 227, 245,.91));
+    height: 100%;
+    width: 100%;
+    z-index:1000;
+    display: none;
+}
+
+.book-collection .photos .popup2-image span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #181717;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.book-collection .photos .popup2-image .first img{
+    position: absolute;
+    top: 50%;
+   left: 20%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #4f4d4d;
+    border-radius: 5px;
+    width: 400px;
+    height:450px;
+    
+}
+
+
+
+.popup2-image .second .cont{
+    position: absolute;
+    left: 40%;
+    top: 23%;
+   width: 100%;
+    max-width: 80%;
+    z-index: 1;
+    color: rgb(36, 35, 35);
+}
+
+.popup2-image .second .cont .typ{
+    font-weight: bold;
+}
+
+.popup2-image .second .cont .buttons{
+    width: 260px;
+   margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup2-image .second .cont .buttons .btn1{
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    background: rgb(164, 97, 164);
+    padding: 10px;
+    padding-left: 10px;
+    width: 50%;
+    color: black;
+    cursor: pointer;
+}
+.popup2-image .second .cont .buttons .btn1:hover{
+    background: #444;
+    color: #eee;
+    transform: scale(1.1);
+}
+.popup2-image .second .cont .buttons .btn2:hover{
+    background: #444;
+    color: #eee;
+    transform: scale(1.1);
+}
+
+.popup2-image .second .cont .buttons .btn2{
+    margin-left: 2.5rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    background: rgb(88, 159, 240);
+    padding: 10px;
+    padding-left: 10px;
+    width: 50%;
+    color: black;
+    cursor: pointer;
+}
+.popup2-image .second .cont .type{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.popup2-image .second .cont h2{
+    font-size: 35px;
+    margin-top: 1.2rem;
+}
+
+.popup2-image .second .cont p{
+    font-size: 17px;
+}
+
+.popup2-image .second  .cont2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1.8rem;
+}
+
+.popup2-image .second  .cont2 .conditions{
+    margin-top: 1.8rem;
+}
+
+.popup2-image .second .cont2 .addresses{
+    margin-top: 1.8rem;
+}
+
+.popup2-image .second  .cont2 .address p{
+    color: #444;
+}
+

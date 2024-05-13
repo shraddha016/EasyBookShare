@@ -1,0 +1,248 @@
+.end-section{
+    width: 100%;
+    height:700px;
+    position: relative;
+}
+.end{
+    margin-top: 0rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom right,white,rgba(245, 227, 245,10));
+
+}
+
+.end .secs2{
+    flex-basis: 95%;
+}
+
+.end .secs1{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    background: linear-gradient(to bottom right,rgb(255, 255, 255),rgba(245, 227, 245,10));
+    box-shadow: rgb(181, 180, 181) 0px 2px 10px;
+}
+
+.end .secs1 h3{
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 4rem;
+    color: #444;
+    top: 30%;
+}
+
+.end .one-btn{
+    position: absolute;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    background: rgb(164, 97, 164);
+    cursor: pointer;
+   padding: .7rem 3rem;
+   margin-top: 1.5rem;
+   border: .1rem solid black;
+   color: black;
+   text-decoration: none;
+    text-align: center;
+    top: 67%;
+    
+ }
+
+ .end .secs2 .connect{
+    position: absolute;
+    font-size:3.5rem;
+    font-weight: 350;
+    top: 17%;
+    left: 50%;
+    letter-spacing: 3px;
+ }
+
+ 
+
+ .end .secs2 .s button{
+    
+    position: absolute;
+    padding: 1rem;
+    width: 100px;
+    font-size: 5rem;
+    font-weight: 400;
+    background:rgb(187, 123, 187);
+    border-radius: 50px;
+    top: 28%;
+    left: 55%;
+ }
+
+ .end .secs2 .name{
+    position: absolute;
+  top: 43%;
+  font-size: 1.6rem;
+  color: rgb(16, 15, 15);
+  left: 53%;
+ }
+
+ .end .secs2 .write{
+    position: absolute;
+    top: 53%;
+    left: 45%;
+ }
+ .end .secs2 form .message{
+    text-transform: capitalize;
+    
+    font-size: 1.6rem;
+    padding-top: 1.4rem;
+    padding-left: .5rem;
+    color: #444;
+    font-weight:400;
+}
+
+.end .secs2 form .sell-box{
+      width: 500px;
+    margin: .5rem 0;
+    font-size: 1.6rem;
+    border: .2rem solid rgb(191, 189, 189);
+    border-radius: .5rem;
+    color: solid black;
+    padding: 1rem 1.2rem;
+    text-transform: none;
+    box-shadow: #ecebeb 1px 2px 10px;
+}
+
+.end .secs2 form .btn button{
+    position: absolute;
+    left: 28%;
+    margin-top:5rem ;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    background: rgb(164, 97, 164);
+    padding: 7px 20px;
+    width: 100px;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* -----------------------ngo end------------------------------------------------------------------- */
+
+
+.ngo-section{
+    width: 100%;
+    height:700px;
+    position: relative;
+}
+.ngo{
+    margin-top: 0rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+    background: linear-gradient(to top left,white,rgba(245, 227, 245,10));
+
+}
+
+.ngo .secs2{
+    flex-basis: 95%;
+}
+
+.ngo .secs1{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    background: linear-gradient(to top right,rgb(255, 255, 255),rgba(245, 227, 245,10));
+      box-shadow: rgb(181, 180, 181) 0px 2px 10px;
+}
+
+.ngo .secs1 h3{
+    position: absolute;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    color: #444;
+    top: 30%;
+}
+
+.ngo .secs1 h2{
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 4rem;
+    color: #444;
+    top: 36%;
+    letter-spacing: 3px;
+}
+
+.ngo .one-btn{
+    position: absolute;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    background: rgb(164, 97, 164);
+    cursor: pointer;
+   padding: .7rem 3rem;
+   margin-top: 1.5rem;
+   border: .1rem solid black;
+   color: black;
+   text-decoration: none;
+    text-align: center;
+    top: 73%;
+    
+ }
+
+ .ngo .secs2 .connect{
+    position: absolute;
+    font-size:2rem;
+    font-weight: 350;
+    top: 17%;
+    left: 40%;
+    letter-spacing: 3px;
+ }
+
+ 
+
+ .ngo .secs2 .s button{
+    
+    position: absolute;
+    padding: 2.5rem;
+    width: 135px;
+    font-size: 3rem;
+    font-weight: 300;
+    background:rgb(187, 123, 187);
+    border-radius: 100px;
+    top: 40%;
+    left: 55%;
+    text-align: center;
+ }
+
+ .ngo .secs2 .name1{
+    position: absolute;
+  top: 25%;
+  font-size: 1.6rem;
+  color: rgb(16, 15, 15);
+  left: 55%;
+ }
+
+ .ngo .secs2 .name2{
+    position: absolute;
+  top: 28%;
+  font-size: 1.3rem;
+  color: rgb(55, 55, 55);
+  left: 58%;
+ }
+
+ 
+.ngo .secs2  .btn button{
+    position: absolute;
+    left: 56%;
+    margin-top:5rem ;
+    font-size: 2rem;
+    border-radius: .5rem;
+    background: rgb(164, 97, 164);
+    padding: 9px 20px;
+    width: 130px;
+    color: black;
+    cursor: pointer;
+    top: 70%;
+}
